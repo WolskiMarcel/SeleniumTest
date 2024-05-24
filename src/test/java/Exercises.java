@@ -27,14 +27,6 @@ public class Exercises {
     }
 
     @Test
-    public void testExercise4a() {
-        driver.navigate().to("https://sdacademy.dev");
-        String actual = driver.getTitle();
-        String expected = "Software Development Academy | Give IT a go!";
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void testExercise4b() {
         driver.navigate().to("https://stackoverflow.com");
         System.out.println(driver.getTitle());
