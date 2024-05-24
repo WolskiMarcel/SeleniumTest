@@ -1,2 +1,2 @@
 ﻿# seleniumExercises
-First touch with Selenium
+First hands-on experience with Selenium
